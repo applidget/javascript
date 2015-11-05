@@ -1,5 +1,6 @@
-# Airbnb JavaScript Style Guide() {
+# Applidget JavaScript Style Guide() {
 
+*Largely inspired by [Airbnb js style guide](https://github.com/airbnb/javascript)*
 *A mostly reasonable approach to JavaScript*
 
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
