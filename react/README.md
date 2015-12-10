@@ -219,9 +219,19 @@
     ```
 
 ## Methods
-  - Do not use underscore prefix for internal methods of a React component.
+  - Always use underscore prefix for internal methods of a React component.
     ```javascript
+    
     // bad
+    class extends React.Component {
+      onClickSubmit() {
+        // do stuff
+      }
+
+      // other stuff
+    });
+    
+    // good
     React.createClass({
       _onClickSubmit() {
         // do stuff
@@ -230,14 +240,6 @@
       // other stuff
     });
 
-    // good
-    class extends React.Component {
-      onClickSubmit() {
-        // do stuff
-      }
-
-      // other stuff
-    });
     ```
 
 ## Ordering
